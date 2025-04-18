@@ -29,10 +29,15 @@ class FourierSeriesGenerator(QMainWindow):
 
         # 输入框和标签
         self.terms_input = self.create_input_field(control_layout, 'Number of Terms:')
+        self.terms_input.setText("20")
         self.seed_input = self.create_input_field(control_layout, 'Random Seed:')
+        self.seed_input.setText("114514")
         self.decay1_input = self.create_input_field(control_layout, 'Decay Factor 1:')
+        self.decay1_input.setText("1")
         self.decay2_input = self.create_input_field(control_layout, 'Decay Factor 2:')
+        self.decay2_input.setText("1")
         self.step_input = self.create_input_field(control_layout, 'Step Size:')
+        self.step_input.setText("100")
 
         # 添加按钮
         self.generate_button = QPushButton('Generate Path', self)

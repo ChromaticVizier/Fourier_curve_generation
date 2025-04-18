@@ -3,5 +3,5 @@
   <component name="Black">
     <option name="sdkName" value="fourier" />
   </component>
-  <component name="ProjectRootManager" version="2" project-jdk-name="fourier" project-jdk-type="Python SDK" />
+  <component name="ProjectRootManager" version="2" project-jdk-name="Fourier" project-jdk-type="Python SDK" />
 </project>
